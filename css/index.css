@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-dark);
+  border-bottom: 8px solid var(--black-third);
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 20px;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+a::before {
+  content: "";
+  background-color: var(--pink-light);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: var(--black-second);
+}
+
+#button {
+  display: inline-block;
+  background-color: var(--pink-light);
+  color: var(--blue-light);
+  padding: 10px 14px;
+  box-shadow: 5px 5px 2px var(--black-first);
+  transition: transform 300ms ease-in-out;
+}
+
+#button:hover {
+  transform: scale(1.05);
+  background-color: var(--pink-light-darker);
+  color: var(--black-second)
+}

@@ -28,4 +28,12 @@ Algumas propriedades mudam o texto e outras mudam o efeito da caixa.
     comportamento de hover no botão do header
   avançado
     hospedar o site no github pages
+
+  =-=-=-=-=-= Desafio 01 =-=-=-=-=-=
+  básico:
+    adicionar uma seção com título e subtítulo
+  intermediário:
+    adicionar dois botôes downCV e contatos abaixo da seção título e subtítulo
+  avançado:
+    colocar a foto/background na primeira seção
  -->

@@ -2,5 +2,5 @@ h1 {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 40px;
   color: var(--pink-light);
-  text-shadow: 2px 2px 0 var(--black-first);
+  text-shadow: 3px 3px 0 var(--black-first);
 }

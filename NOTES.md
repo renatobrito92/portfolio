@@ -43,3 +43,11 @@ intermediário:
   criar um componente desta seção (icone, título e barrinha com cor)
 avançado:
   fazer o preenchimento da barrinha e posicionar os elementos
+
+=-=-=-=-=-= Desafio 04 =-=-=-=-=-=
+básico:
+  criar um novo componente da seção
+intermediário:
+  criar uma variação da section (mudar cor de fundo e borda)
+avançado:
+  refatorar os componentes existentes

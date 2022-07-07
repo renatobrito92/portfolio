@@ -2,7 +2,7 @@
   display: flex;
   width: 150px;
   height: 150px;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 50px 0px 50px;
   background-color: var(--color-second);
   box-shadow: 5px 5px 0px var(--color-third);
   justify-content: center;

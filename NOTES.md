@@ -51,3 +51,11 @@ intermediário:
   criar uma variação da section (mudar cor de fundo e borda)
 avançado:
   refatorar os componentes existentes
+
+=-=-=-=-=-= Desafio 05 =-=-=-=-=-=
+básico:
+  criar um texto da seção sobre
+intermediário:
+  criar uma variação da section
+avançado:
+  fazer o carrousel

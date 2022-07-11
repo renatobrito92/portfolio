@@ -59,3 +59,11 @@ intermediário:
   criar uma variação da section
 avançado:
   fazer o carrousel
+
+=-=-=-=-=-= Desafio 06 =-=-=-=-=-=
+básico:
+  criar section do footer
+intermediário:
+  criar o form da section contatos
+avançado:
+  fazer validações no form (nome, email e mensagem)

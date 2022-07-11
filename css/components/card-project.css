@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--color-second);
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   box-shadow: 5px 5px 0px var(--color-third);
 }

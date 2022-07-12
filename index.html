@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Press+Start+2P&display=swap" rel="stylesheet"/>
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/components/main-header.css" />
     <link rel="stylesheet" href="css/components/main-banner.css" />
@@ -31,7 +35,6 @@
   <body>
     <header class="main-header">
       <img src="assets/img/avatar-400.png" alt="My photo here" width="60px" />
-      
       <nav class="menu">
         <a class="main-action" href="" lang="en">Skills</a>
         <a class="main-action" href="">Projetos</a>
@@ -174,29 +177,51 @@
 
     <section class="main-section -bgSecond -bdBlack">
       <h2 class="main-title -second">Quem é Renato?</h2>
-      
+
       <p class="main-description">
-        Meu nome é Renato Brito, sou natural de Salvador - BA. 
-        Meu primeiro contato com linguagem de programação foi SQL (linguagem dos Bancos de Dados), 
-        isso lá em 2014 quando morava em Contagem - MG. Foi uma experiência incrível, 
-        pude entender como funciona um modelo relacional, suas regras e particularidades. 
-        Passado-se alguns anos, em 2019 entrei na faculdade, no curso de Tecnólogo em 
-        Análise e Desenvolvimento de Sistemas pela Anhanguera Unidade Guajajaras - MG, 
-        onde conheci a fundo sobre Internet e seus protocolos, estudei HTML5, CSS3, C, C++, C# e JavaScript. 
-        Infelizmente o mundo mudou no ano seguinte devido a uma pandemia mundial. 
-        Fquei desempregado e tive de trancar a faculdade. Me senti frustrado e dei um tempo com os estudos. 
-        Já no final de 2021, retomei os estudos como FrontEnd Developer, 
-        dedicando o meu tempo para aprimorar os conhecimentos em HTML5, CSS3 e JavaScript. 
-        Atualmente moro em São Paulo e busco uma colocação no mercado de trabalho.
+        Natural de Salvador - BA, teve seu primeiro contato com linguagem de
+        Bancos de Dados, isso lá em 2014 quando morava em Contagem - MG. Onde
+        pode entender como funciona um modelo relacional e suas regras.
+        Passado-se alguns anos, entrou na faculdade em 2019 no curso Tecnólogo
+        em Análise e Desenvolvimento de Sistemas pela Anhanguera na Unidade
+        Guajajaras - MG, onde pode conhecer a fundo sobre Internet e seus
+        protocolos, HTML, CSS, C, C++, C# e JavaScript. Infelizmente o
+        mundo mudou no ano seguinte devido a uma pandemia mundial, deixando-o
+        desempregado e sem condições de continuar na faculdade. Já no final de
+        2021 retoma os estudos focado no desvenvolvimento FrontEnd, dedicando o seu tempo
+        para aprimorar os conhecimentos em HTML5, CSS3 e JavaScript. Atualmente
+        mora em São Paulo e busca uma colocação no mercado de trabalho.
       </p>
     </section>
 
+    <section class="main-section -form">
+      <form action="" method="post">
+        <label for="name">Nome</label>
+        <input type="text" maxlength="30" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" maxlength="30" name="email" placeholder="exemplo@exemplo.com">
+
+        <label for="mensagem">Mensagem</label>
+        <input type="text" maxlength="30" name="mensagem">
+      </form>
+      <button class="main-button">Enviar</button>
+    </section>
+
     <footer class="main-footer">
-      <a class="action" href="https://twitter.com/renatobrito92" target="_blank">
-        <img src="assets/img/ico-twitter.png" alt="Logo do Twitter">
+      <a
+        class="action"
+        href="https://twitter.com/renatobrito92"
+        target="_blank"
+      >
+        <img src="assets/img/ico-twitter.png" alt="Logo do Twitter" />
       </a>
-      <a class="action" href="https://www.instagram.com/renatobrito.dev" target="_blank">
-        <img src="assets/img/ico-instagram.svg" alt="Link do Discord">
+      <a
+        class="action"
+        href="https://www.instagram.com/renatobrito.dev"
+        target="_blank"
+      >
+        <img src="assets/img/ico-instagram.svg" alt="Link do Discord" />
       </a>
     </footer>
   </body>

@@ -29,4 +29,5 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--color-black-third);
+  padding: 20px;
 }
